@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    background: #ff7c01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropArea, #selectArea{
+    width: 25vw;
+    height: 25vw;
+    max-height: 35vw;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.28);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    transition: all 0.6s ease;
+    overflow-y: scroll;
+    margin-right: 15px;
+}
+#selectArea .centeredTitle{
+    display: block;
+}
+
+#dropArea.multimedia, #selectArea.multimedia{
+    width: 40vw !important;
+    height: auto !important;
+}
+
+#dropArea .centeredTitle{
+    position: sticky;
+    top: -20px;
+    width: 100%;
+    background: rgba(255,255,255,1);
+    padding: 0px 10px;
+    font-size: 280%;
+    color: gray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 90;
+}
+
+#dropArea .file, #selectArea .file{
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px dashed gray;
+}
+
+#dropArea .file .name{
+    font-weight: bold;
+}
+
+#dropArea .file .info{
+    font-size: 70%;
+    text-align: right;
+}
+
+#dropArea .file .info button{
+    padding: 4px 8px;
+    margin-right: 5px;
+}
+
+#dropArea .file .info img{
+    width: 15%;
+}
+
+#selectArea img,#selectArea video, #selectArea audio{
+    width: 100%;
+}
+
+#selectArea button{
+    padding: 5px 15px;
+    width: 100%;
+    font-size: 90%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#dropArea .file .info video, #dropArea .file .info iframe{
+    width: 100%;
+}
+
+#dropArea .file audio{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#dropArea .file .info .size{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.thumb{
+    width: 100px !important;
+}
+
+#histogramArea{
+    position: absolute;
+    margin: auto auto;
+    width: 0vw; /* 55 */
+    height: 0vh; /* 50 */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.28);
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+
+#histogramArea div{
+    padding: 15px;
+}
+
+#LaOscuridad{
+    position: absolute;
+    width: 0vw;
+    height: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.75);
+    z-index: 98;
+    transition: all 0.3s ease;
+}
