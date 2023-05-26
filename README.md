@@ -3,7 +3,7 @@ Multimedia Database 2019-I Project
 
 ## Descripción
 
-El proyecto está dividido en dos partes, un cliente (que es este) encargado del procesamiento de los datos y un [servidor](https://github.com/pabhoz/MMDBServer) encargado de almacenar los registros en MariaDB/MySQL.
+El proyecto está dividido en dos partes, un cliente encargado del procesamiento de los datos y un encargado de almacenar los registros en MariaDB/MySQL.
 
 El proyecto permite arrojar archivos multimedia a un área y que este sea pocesado y manejado adecuadamente, además, el usuario podrá almacenar dicho elemento en la base de datos junto con su metadata o características, las cuales nos ayudarán posteriormente a consultarle.
 
@@ -56,17 +56,7 @@ Como el proyecto maneja archivos multimedia y peticiones de tipo CORS en entorno
 	
 	innodb_log_file_size = 256M
 ```
-## Descripción de entregable
 
-En grupos de máximo 3 estudiantes desarrollarán el proyecto de fin de curso de MMDB.
-
-**Ustedes**
-
-![Ustedes](assets/grupo.jpeg)
-
-El proyecto será desarrollado bajo las tecnologías aprendidas en clase y la entrega se hará por medio de sustentación presencial y entrega del proyecto en un repositorio alojado en [GitHub](www.github.com), el cual será de acceso privado hasta después de ser calificado y por ende deberán asignar al docente como **colaborador** del mismo para que pueda revisarle.
-
-### Entregables
 
 #### 1. Cliente
 El cliente dispondrá de las siguientes capacidades:
@@ -84,18 +74,6 @@ Modifique su servidor para soportar los archivos multimedia que no esten ya sopo
 
 #### 3. SQL de base de datos (sin registros, sólo el esquema)
 
-### Sustentación y entrega
 
-La entrega será el día 21 de Enero de 2019 de 10:30 - 12:30, durante la entrega los grupos tendrán 10m para socialziar los resultados de su trabajo, posteriormente y al azár, uno de los miembros será encargado de sustentar el proyecto para sacar su nota individual y además la grupal, posteriormente cada uno de los miembros restantes sustentarán para generar su nota individual.
-
-**Nota:** Sólo se calificarán los progresos que estén en commit en el repositorio antes de la hora de las sustentaciones.
-
-**Nota 2:** Si el grupo inicia la sustentación incompleto, los miembros no presentes tendrán una calificación de 0.0.
-
-**Nota 3:** La calificación del proyecto se compone de las notas **Individual** y **Grupal** con pesos de 60% y 40% respectivamente.
-
-**No está demás recordarles que cualquier intento de fraude resultará en sanción disciplinaria y cambio de pensum ;) ;)**
-
-Pueden usar librerías externas para el desarrollo, pero también deberán sustentar su uso.
 
 "# MMDB" 
