@@ -61,13 +61,13 @@ Como el proyecto maneja archivos multimedia y peticiones de tipo CORS en entorno
 #### 1. Cliente
 El cliente dispondrá de las siguientes capacidades:
 
-1. **(20%)** El usuario podrá cargar archivos multimedia de tipo Imagen (png, jpeg, tiff, gif), Audio (mp3, ogg, mp4, wav, m4a), Video (webm, avi, mp4, wmv), Pdf, JS, PHP (Tanto JS como PHP deberán presentarse con colores highlight que los identifiquen como podrán encontrar [acá](https://highlightjs.org/)). Al procesar el archivo, el cliente previsualizará el contenido del archivo en pantalla para que el usuario pueda verlo.
+1. El usuario podrá cargar archivos multimedia de tipo Imagen (png, jpeg, tiff, gif), Audio (mp3, ogg, mp4, wav, m4a), Video (webm, avi, mp4, wmv), Pdf, JS, PHP (Tanto JS como PHP deberán presentarse con colores highlight que los identifiquen como podrán encontrar [acá](https://highlightjs.org/)). Al procesar el archivo, el cliente previsualizará el contenido del archivo en pantalla para que el usuario pueda verlo.
 
-2. **(20%)** El usuario podrá alojar dichos elementos en la base de datos para posteriormente realizar consultas con ellos, a continuación a lista de las consultas:
+2. El usuario podrá alojar dichos elementos en la base de datos para posteriormente realizar consultas con ellos, a continuación a lista de las consultas:
 	1. El usuario podrá consultar todos los elementos de ese tipo alojados en la base de datos.
 	2. El usuario podrá eliminar elementos multimedia de la base de datos. 
 
-3. **(60%)** El usuario podrá hacer Queries de comparación con los archivos de tipo Imagen definiendo el valor de tolerancia a la diferencia, entonces el programa buscará en la base de datos las imagenes similares en contenido de color y las traerá como respuesta. Entre menor (__como ustedes__) sea la tolerancia, más certeros serán los resultados. 
+3. El usuario podrá hacer Queries de comparación con los archivos de tipo Imagen definiendo el valor de tolerancia a la diferencia, entonces el programa buscará en la base de datos las imagenes similares en contenido de color y las traerá como respuesta. Entre menor (__como ustedes__) sea la tolerancia, más certeros serán los resultados. 
 
 #### 2. Server
 Modifique su servidor para soportar los archivos multimedia que no esten ya soportados.
